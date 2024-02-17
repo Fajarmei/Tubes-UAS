@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import altair as alt
-import datetime 
-import matplotlib.pyplot as plt
 import plotly.express as px
 from streamlit_option_menu import option_menu
 # from streamlit_extras.stylable_container import stylable_container
@@ -134,7 +131,7 @@ option = st.selectbox(
 
 if option == opt1:
 
-    file_path       = 'E-Commerce Public Dataset\customers_dataset.csv' 
+    file_path       = 'customers_dataset.csv' 
     df              = pd.read_csv(file_path)    
     st.subheader('Data customer di berbagai kota')
     col1, col2, col3 = st.columns(3)
