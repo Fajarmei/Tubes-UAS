@@ -2,8 +2,8 @@ altair
 streamlit
 streamlit-folium
 streamlit-option-menu
+folium_static
 plotly
-matplotlib
-numpy 
+plotly.express
 pandas 
 folium
